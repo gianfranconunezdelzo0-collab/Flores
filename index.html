@@ -1022,10 +1022,29 @@ img {
       vertical-align: middle;
     }
     @media (max-width: 600px) {
+      .music-controls {
+        margin-top: 10px;
+        text-align: center;
+      }
       .music-btn {
-        font-size: 0.7em;
-        padding: 0.12em 0.5em;
-        min-width: 60px;
+        font-size: 0.8em;
+        padding: 0.12em 0.4em;
+        min-width: 50px;
+        border-radius: 1em;
+      }
+      .music-icon {
+        font-size: 0.9em;
+      }
+      .love-message {
+        position: static;
+        top: auto;
+        right: auto;
+        left: auto;
+        max-width: 95vw;
+        font-size: 1.2em;
+        padding: 10px 5px;
+        margin: 0 auto 10px auto;
+        border-radius: 10px;
       }
     }
   </style>
@@ -1384,5 +1403,3 @@ img {
   0%, 100% { transform: rotate(2deg); }
   50% { transform: rotate(-2deg); }
 }
-
-@keyframes moving-flower-
